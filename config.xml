@@ -1,7 +1,8 @@
 <config>
 	<main_coins>BTCUSDT,ETHUSDT</main_coins>
 	<quote_coin>USDT</quote_coin>
-	<coins>DOT,LINK,LTC,ADA,XRP,BNB,BCH,CRV,TRX</coins>
+	<!--<coins>DOT,LINK,LTC,ADA,XRP,BNB,BCH,CRV,TRX</coins>-->
+	<coins>DOT</coins>
 	<!--<day_modifier>4</day_modifier>-->
 	<day_modifier>1</day_modifier>
 	<data_fetch_attempts>3</data_fetch_attempts>
