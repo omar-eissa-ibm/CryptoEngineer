@@ -1,8 +1,7 @@
 <config>
 	<main_coins>BTCUSDT,ETHUSDT</main_coins>
 	<quote_coin>USDT</quote_coin>
-	<!--<coins>DOT,LINK,LTC,ADA,XRP,BNB,BCH,CRV,TRX</coins>-->
-	<coins>DOT</coins>
+	<coins>DOT,LINK,LTC,ADA,XRP,BNB,BCH,CRV,TRX</coins>
 	<!--<day_modifier>4</day_modifier>-->
 	<day_modifier>1</day_modifier>
 	<data_fetch_attempts>3</data_fetch_attempts>
@@ -26,4 +25,5 @@
 	<feature_index>6</feature_index>
 	<features_to_skip_normalization>2</features_to_skip_normalization>
 	<confirmed_signal>3</confirmed_signal>
+	<no_trade_sleep_time>60</no_trade_sleep_time>
 </config>
