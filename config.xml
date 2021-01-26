@@ -10,8 +10,8 @@
 	<init_profit_percent>0.002</init_profit_percent>
 	<profit_percent_step>0.005</profit_percent_step>
 	<safety_percent>0.003</safety_percent>
-	<decrease_window>0.0005</decrease_window>
-	<decrease_percent>60</decrease_percent>
+	<decrease_window>60</decrease_window>
+	<decrease_percent>0.0005</decrease_percent>
 	<!--<sequence_length>256</sequence_length>-->
 	<sequence_length>128</sequence_length>
 	<pred_length>16</pred_length>
