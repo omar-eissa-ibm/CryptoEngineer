@@ -1,0 +1,28 @@
+<config>
+	<main_coins>BTCUSDT,ETHUSDT</main_coins>
+	<quote_coin>USDT</quote_coin>
+	<coins>DOT,LINK,LTC,ADA,XRP,BNB,BCH,CRV,TRX</coins>
+	<!--<day_modifier>4</day_modifier>-->
+	<day_modifier>1</day_modifier>
+	<data_fetch_attempts>3</data_fetch_attempts>
+	<loss_percent>-0.005</loss_percent>
+	<init_profit_step>0.005</init_profit_step>
+	<init_profit_percent>0.002</init_profit_percent>
+	<profit_percent_step>0.005</profit_percent_step>
+	<safety_percent>0.003</safety_percent>
+	<decrease_window>0.0005</decrease_window>
+	<decrease_percent>60</decrease_percent>
+	<!--<sequence_length>256</sequence_length>-->
+	<sequence_length>128</sequence_length>
+	<pred_length>16</pred_length>
+	<num_features>7</num_features>
+	<dropout_value>0.15</dropout_value>
+	<!--<batch_num>64</batch_num>-->
+	<batch_num>128</batch_num>
+	<!--<num_epoch>16</num_epoch>-->
+	<num_epoch>4</num_epoch>
+	<val_split>0.1</val_split>
+	<feature_index>6</feature_index>
+	<features_to_skip_normalization>2</features_to_skip_normalization>
+	<confirmed_signal>3</confirmed_signal>
+</config>
